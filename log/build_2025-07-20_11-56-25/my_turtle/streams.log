@@ -1,0 +1,37 @@
+[0.018s] Invoking command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12
+[0.101s] [ 50%] Built target turtle_spawner
+[0.118s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[2.837s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:95:8:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kstruct TurtlePosition[m[K’
+[2.837s]    95 | struct [01;31m[KTurtlePosition[m[K
+[2.837s]       |        [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.837s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:14:8:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kstruct TurtlePosition[m[K’
+[2.838s]    14 | struct [01;36m[KTurtlePosition[m[K
+[2.838s]       |        [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.838s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:103:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TurtleController[m[K’
+[2.838s]   103 | class [01;31m[KTurtleController[m[K : public rclcpp::Node
+[2.838s]       |       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.838s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:22:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TurtleController[m[K’
+[2.838s]    22 | class [01;36m[KTurtleController[m[K : public rclcpp::Node
+[2.838s]       |       [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.838s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:123:1:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[KTurtleController::[01;32m[KTurtleController[m[K()[m[K’
+[2.838s]   123 | [01;31m[KTurtleController[m[K::TurtleController() : Node("TurtleController")
+[2.839s]       | [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.839s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:42:1:[m[K [01;36m[Knote: [m[K‘[01m[KTurtleController::[01;32m[KTurtleController[m[K()[m[K’ previously defined here
+[2.839s]    42 | [01;36m[KTurtleController[m[K::TurtleController() : Node("TurtleController")
+[2.839s]       | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.839s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:141:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid TurtleController::[01;32m[Kcurrent_turtle_position[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’
+[2.839s]   141 | void [01;31m[KTurtleController[m[K::current_turtle_position(const turtlesim::msg::Pose::SharedPtr msg)
+[2.839s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.839s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:60:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid TurtleController::[01;32m[Kcurrent_turtle_position[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+[2.840s]    60 | void [01;36m[KTurtleController[m[K::current_turtle_position(const turtlesim::msg::Pose::SharedPtr msg)
+[2.840s]       |      [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[2.840s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:147:6:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kvoid TurtleController::[01;32m[Knew_turtle_position[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’
+[2.840s]   147 | void [01;31m[KTurtleController[m[K::new_turtle_position(const std_msgs::msg::String::SharedPtr msg)
+[2.840s]       |      [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.840s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:66:6:[m[K [01;36m[Knote: [m[K‘[01m[Kvoid TurtleController::[01;32m[Knew_turtle_position[m[K(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’ previously defined here
+[2.840s]    66 | void [01;36m[KTurtleController[m[K::new_turtle_position(const std_msgs::msg::String::SharedPtr msg)
+[2.841s]       |      [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.842s] gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[5.842s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_controller.dir/all] Error 2
+[5.842s] gmake: *** [Makefile:146: all] Error 2
+[5.845s] Invoked command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12

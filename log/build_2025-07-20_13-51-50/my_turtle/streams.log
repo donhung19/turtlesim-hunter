@@ -1,0 +1,29 @@
+[0.010s] Invoking command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12
+[0.063s] [ 50%] Built target turtle_spawner
+[0.070s] [ 75%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[7.610s] [100%] [32m[1mLinking CXX executable turtle_controller[0m
+[7.980s] [100%] Built target turtle_controller
+[7.995s] Invoked command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12
+[8.005s] Invoking command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle
+[8.014s] -- Install configuration: ""
+[8.015s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_spawner
+[8.015s] -- Installing: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_controller
+[8.020s] -- Set non-toolchain portion of runtime path of "/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_controller" to ""
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/launch
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/launch/my_turtle.launch.xml
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/package_run_dependencies/my_turtle
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/parent_prefix_path/my_turtle
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/ament_prefix_path.sh
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/ament_prefix_path.dsv
+[8.020s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/path.sh
+[8.021s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/path.dsv
+[8.021s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.bash
+[8.021s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.sh
+[8.021s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.zsh
+[8.021s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.dsv
+[8.021s] -- Installing: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/package.dsv
+[8.022s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/packages/my_turtle
+[8.022s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/cmake/my_turtleConfig.cmake
+[8.022s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/cmake/my_turtleConfig-version.cmake
+[8.022s] -- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/package.xml
+[8.023s] Invoked command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle

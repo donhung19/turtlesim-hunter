@@ -1,0 +1,26 @@
+[0.010s] Invoking command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12
+[0.032s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 28.1.9 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.229s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.234s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.291s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.345s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.403s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.438s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.521s] -- Configuring done (0.5s)
+[0.533s] -- Generating done (0.0s)
+[0.537s] -- Build files have been written to: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle
+[0.578s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o[0m
+[0.583s] [ 75%] Built target turtle_spawner
+[0.732s] [01m[K/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle/src/turtle_controller.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/twist.hpp: No such file or directory
+[0.732s]     5 | #include [01;31m[K"geometry_msgs/msg/twist.hpp"[m[K
+[0.732s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.732s] compilation terminated.
+[0.734s] gmake[2]: *** [CMakeFiles/turtle_controller.dir/build.make:76: CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o] Error 1
+[0.735s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/turtle_controller.dir/all] Error 2
+[0.735s] gmake: *** [Makefile:146: all] Error 2
+[0.737s] Invoked command in '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle -- -j12 -l12

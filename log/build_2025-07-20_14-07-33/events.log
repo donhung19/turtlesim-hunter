@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000538] (my_turtle) JobQueued: {'identifier': 'my_turtle', 'dependencies': OrderedDict()}
+[0.000758] (my_turtle) JobStarted: {'identifier': 'my_turtle'}
+[0.012526] (my_turtle) JobProgress: {'identifier': 'my_turtle', 'progress': 'cmake'}
+[0.014647] (my_turtle) JobProgress: {'identifier': 'my_turtle', 'progress': 'build'}
+[0.014707] (my_turtle) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle', '--', '-j12', '-l12'], 'cwd': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'BOOST_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/boost-system', 'WM_PROJECT': 'OpenFOAM', 'FOAM_SITE_LIBBIN': '/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/lib', 'WM_DIR': '/usr/lib/openfoam/openfoam2412/wmake', 'USER': 'donhung19', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib/sys-openmpi:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/x86_64-linux-gnu/openmpi/lib:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib/dummy:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donhung19', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/donhung19', 'DESKTOP_SESSION': 'ubuntu', 'FOAM_API': '2412', 'WM_PROJECT_DIR': '/usr/lib/openfoam/openfoam2412', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'FOAM_ETC': '/usr/lib/openfoam/openfoam2412/etc', 'MANAGERPID': '3559', 'WM_COMPILE_OPTION': 'Opt', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a2c454b160f364cbef680a19687c153f', 'COLORTERM': 'truecolor', '_CE_M': '', 'ADIOS2_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/ADIOS2-2.10.1', 'FOAM_SITE_APPBIN': '/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/bin', 'FOAM_USER_LIBBIN': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/lib', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'donhung19', 'FOAM_APP': '/usr/lib/openfoam/openfoam2412/applications', 'MPI_ARCH_PATH': '/usr/lib/x86_64-linux-gnu/openmpi', 'JOURNAL_STREAM': '9:29885', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'WM_PRECISION_OPTION': 'DP', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'donhung19', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WM_COMPILER_TYPE': 'system', 'FOAM_MPI': 'sys-openmpi', 'WM_COMPILER_LIB_ARCH': '64', 'PATH': '/home/nhungdtc/miniconda3/condabin:/opt/paraview/bin:/usr/lib/x86_64-linux-gnu/openmpi/bin:/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/bin:/usr/lib/openfoam/openfoam2412/wmake:/opt/ros/jazzy/bin:/home/donhung19/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nhungdtc/.local/bin:/home/donhung19/Downloads/ParaView-5.13.3-MPI-Linux-Python3.10-x86_64/bin:/home/donhung19/.local/bin', 'SESSION_MANAGER': 'local/dev:@/tmp/.ICE-unix/3862,unix/dev:/tmp/.ICE-unix/3862', 'INVOCATION_ID': '40ad672274224074b597649d49f62c67', 'PV_PLUGIN_PATH': '/opt/paraview/lib/paraview-5.13', 'XDG_MENU_PREFIX': 'gnome-', 'CGAL_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/cgal-system', 'FOAM_UTILITIES': '/usr/lib/openfoam/openfoam2412/applications/utilities', 'GNOME_SETUP_DISPLAY': ':1', 'FOAM_SRC': '/usr/lib/openfoam/openfoam2412/src', 'SCOTCH_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64GccDPInt32/scotch-system', 'XDG_RUNTIME_DIR': '/run/user/1000', 'FOAM_USER_APPBIN': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/bin', 'ZEITGEIST_DATA_PATH': '/home/donhung19/.local/share/zeitgeist', 'WM_OPTIONS': 'linux64GccDPInt32Opt', 'WM_PROJECT_VERSION': 'v2412', 'DISPLAY': ':0', 'FFTW_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/fftw-system', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '7ddaca66-3d0b-4ede-99d5-5e8fb494f487', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V3IU92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'WM_ARCH': 'linux64', 'AMENT_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/my_robot_bringup:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_cpp:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/nhungdtc/miniconda3/bin/python', 'SHELL': '/bin/bash', 'FOAM_LIBBIN': '/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WM_COMPILER': 'Gcc', 'WM_PROJECT_USER_DIR': '/home/donhung19/OpenFOAM/donhung19-v2412', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle', 'FOAM_TUTORIALS': '/usr/lib/openfoam/openfoam2412/tutorials', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nhungdtc/miniconda3/bin/conda', 'WM_MPLIB': 'SYSTEMOPENMPI', 'WM_LABEL_SIZE': '32', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a2c454b160f364cbef680a19687c153f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'FOAM_RUN': '/home/donhung19/OpenFOAM/donhung19-v2412/run', 'WM_THIRD_PARTY_DIR': '/usr/lib/openfoam/openfoam2412/ThirdParty', 'PYTHONPATH': '/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'WM_LABEL_OPTION': 'Int32', 'FOAM_SOLVERS': '/usr/lib/openfoam/openfoam2412/applications/solvers', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'FOAM_APPBIN': '/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/bin', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/my_robot_bringup:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy'}), 'shell': False}
+[0.092353] (my_turtle) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/turtle_controller.dir/src/turtle_controller.cpp.o\x1b[0m\n'}
+[0.093085] (my_turtle) StdoutLine: {'line': b'[ 75%] Built target turtle_spawner\n'}
+[0.099855] (-) TimerEvent: {}
+[0.200300] (-) TimerEvent: {}
+[0.300814] (-) TimerEvent: {}
+[0.401695] (-) TimerEvent: {}
+[0.502491] (-) TimerEvent: {}
+[0.603223] (-) TimerEvent: {}
+[0.704288] (-) TimerEvent: {}
+[0.805146] (-) TimerEvent: {}
+[0.906688] (-) TimerEvent: {}
+[1.007542] (-) TimerEvent: {}
+[1.108308] (-) TimerEvent: {}
+[1.208907] (-) TimerEvent: {}
+[1.309370] (-) TimerEvent: {}
+[1.409860] (-) TimerEvent: {}
+[1.510241] (-) TimerEvent: {}
+[1.610773] (-) TimerEvent: {}
+[1.711381] (-) TimerEvent: {}
+[1.812124] (-) TimerEvent: {}
+[1.912602] (-) TimerEvent: {}
+[2.012942] (-) TimerEvent: {}
+[2.113412] (-) TimerEvent: {}
+[2.213919] (-) TimerEvent: {}
+[2.314231] (-) TimerEvent: {}
+[2.414612] (-) TimerEvent: {}
+[2.514992] (-) TimerEvent: {}
+[2.615766] (-) TimerEvent: {}
+[2.716496] (-) TimerEvent: {}
+[2.817489] (-) TimerEvent: {}
+[2.918490] (-) TimerEvent: {}
+[3.019680] (-) TimerEvent: {}
+[3.120416] (-) TimerEvent: {}
+[3.221232] (-) TimerEvent: {}
+[3.321804] (-) TimerEvent: {}
+[3.422247] (-) TimerEvent: {}
+[3.522733] (-) TimerEvent: {}
+[3.623135] (-) TimerEvent: {}
+[3.723423] (-) TimerEvent: {}
+[3.823714] (-) TimerEvent: {}
+[3.924082] (-) TimerEvent: {}
+[4.024368] (-) TimerEvent: {}
+[4.124678] (-) TimerEvent: {}
+[4.225077] (-) TimerEvent: {}
+[4.325336] (-) TimerEvent: {}
+[4.425617] (-) TimerEvent: {}
+[4.525901] (-) TimerEvent: {}
+[4.626247] (-) TimerEvent: {}
+[4.726505] (-) TimerEvent: {}
+[4.826789] (-) TimerEvent: {}
+[4.927166] (-) TimerEvent: {}
+[5.027462] (-) TimerEvent: {}
+[5.127739] (-) TimerEvent: {}
+[5.228095] (-) TimerEvent: {}
+[5.328344] (-) TimerEvent: {}
+[5.428629] (-) TimerEvent: {}
+[5.528907] (-) TimerEvent: {}
+[5.629272] (-) TimerEvent: {}
+[5.729651] (-) TimerEvent: {}
+[5.830048] (-) TimerEvent: {}
+[5.930514] (-) TimerEvent: {}
+[6.030878] (-) TimerEvent: {}
+[6.131245] (-) TimerEvent: {}
+[6.231609] (-) TimerEvent: {}
+[6.332026] (-) TimerEvent: {}
+[6.432594] (-) TimerEvent: {}
+[6.533294] (-) TimerEvent: {}
+[6.634024] (-) TimerEvent: {}
+[6.734569] (-) TimerEvent: {}
+[6.835300] (-) TimerEvent: {}
+[6.935959] (-) TimerEvent: {}
+[7.036463] (-) TimerEvent: {}
+[7.137129] (-) TimerEvent: {}
+[7.237591] (-) TimerEvent: {}
+[7.338099] (-) TimerEvent: {}
+[7.438395] (-) TimerEvent: {}
+[7.538754] (-) TimerEvent: {}
+[7.639055] (-) TimerEvent: {}
+[7.739303] (-) TimerEvent: {}
+[7.839551] (-) TimerEvent: {}
+[7.939876] (-) TimerEvent: {}
+[8.040214] (-) TimerEvent: {}
+[8.140452] (-) TimerEvent: {}
+[8.240791] (-) TimerEvent: {}
+[8.341130] (-) TimerEvent: {}
+[8.441374] (-) TimerEvent: {}
+[8.541728] (-) TimerEvent: {}
+[8.642085] (-) TimerEvent: {}
+[8.742330] (-) TimerEvent: {}
+[8.842604] (-) TimerEvent: {}
+[8.942878] (-) TimerEvent: {}
+[9.043254] (-) TimerEvent: {}
+[9.143623] (-) TimerEvent: {}
+[9.244003] (-) TimerEvent: {}
+[9.344414] (-) TimerEvent: {}
+[9.444775] (-) TimerEvent: {}
+[9.545081] (-) TimerEvent: {}
+[9.645412] (-) TimerEvent: {}
+[9.745865] (-) TimerEvent: {}
+[9.846296] (-) TimerEvent: {}
+[9.946705] (-) TimerEvent: {}
+[10.047164] (-) TimerEvent: {}
+[10.059823] (my_turtle) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtle_controller\x1b[0m\n'}
+[10.147367] (-) TimerEvent: {}
+[10.248354] (-) TimerEvent: {}
+[10.348972] (-) TimerEvent: {}
+[10.449948] (-) TimerEvent: {}
+[10.550543] (-) TimerEvent: {}
+[10.651523] (-) TimerEvent: {}
+[10.668003] (my_turtle) StdoutLine: {'line': b'[100%] Built target turtle_controller\n'}
+[10.689858] (my_turtle) CommandEnded: {'returncode': 0}
+[10.690635] (my_turtle) JobProgress: {'identifier': 'my_turtle', 'progress': 'install'}
+[10.707779] (my_turtle) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle'], 'cwd': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'BOOST_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/boost-system', 'WM_PROJECT': 'OpenFOAM', 'FOAM_SITE_LIBBIN': '/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/lib', 'WM_DIR': '/usr/lib/openfoam/openfoam2412/wmake', 'USER': 'donhung19', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib/sys-openmpi:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib:/usr/lib/x86_64-linux-gnu/openmpi/lib:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib/dummy:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/donhung19', 'CONDA_SHLVL': '0', 'OLDPWD': '/home/donhung19', 'DESKTOP_SESSION': 'ubuntu', 'FOAM_API': '2412', 'WM_PROJECT_DIR': '/usr/lib/openfoam/openfoam2412', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'FOAM_ETC': '/usr/lib/openfoam/openfoam2412/etc', 'MANAGERPID': '3559', 'WM_COMPILE_OPTION': 'Opt', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3862', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a2c454b160f364cbef680a19687c153f', 'COLORTERM': 'truecolor', '_CE_M': '', 'ADIOS2_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/ADIOS2-2.10.1', 'FOAM_SITE_APPBIN': '/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/bin', 'FOAM_USER_LIBBIN': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/lib', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'donhung19', 'FOAM_APP': '/usr/lib/openfoam/openfoam2412/applications', 'MPI_ARCH_PATH': '/usr/lib/x86_64-linux-gnu/openmpi', 'JOURNAL_STREAM': '9:29885', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'WM_PRECISION_OPTION': 'DP', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'donhung19', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WM_COMPILER_TYPE': 'system', 'FOAM_MPI': 'sys-openmpi', 'WM_COMPILER_LIB_ARCH': '64', 'PATH': '/home/nhungdtc/miniconda3/condabin:/opt/paraview/bin:/usr/lib/x86_64-linux-gnu/openmpi/bin:/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/site/2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/bin:/usr/lib/openfoam/openfoam2412/bin:/usr/lib/openfoam/openfoam2412/wmake:/opt/ros/jazzy/bin:/home/donhung19/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/nhungdtc/.local/bin:/home/donhung19/Downloads/ParaView-5.13.3-MPI-Linux-Python3.10-x86_64/bin:/home/donhung19/.local/bin', 'SESSION_MANAGER': 'local/dev:@/tmp/.ICE-unix/3862,unix/dev:/tmp/.ICE-unix/3862', 'INVOCATION_ID': '40ad672274224074b597649d49f62c67', 'PV_PLUGIN_PATH': '/opt/paraview/lib/paraview-5.13', 'XDG_MENU_PREFIX': 'gnome-', 'CGAL_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/cgal-system', 'FOAM_UTILITIES': '/usr/lib/openfoam/openfoam2412/applications/utilities', 'GNOME_SETUP_DISPLAY': ':1', 'FOAM_SRC': '/usr/lib/openfoam/openfoam2412/src', 'SCOTCH_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64GccDPInt32/scotch-system', 'XDG_RUNTIME_DIR': '/run/user/1000', 'FOAM_USER_APPBIN': '/home/donhung19/OpenFOAM/donhung19-v2412/platforms/linux64GccDPInt32Opt/bin', 'ZEITGEIST_DATA_PATH': '/home/donhung19/.local/share/zeitgeist', 'WM_OPTIONS': 'linux64GccDPInt32Opt', 'WM_PROJECT_VERSION': 'v2412', 'DISPLAY': ':0', 'FFTW_ARCH_PATH': '/usr/lib/openfoam/openfoam2412/ThirdParty/platforms/linux64Gcc/fftw-system', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'TILIX_ID': '7ddaca66-3d0b-4ede-99d5-5e8fb494f487', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.V3IU92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'WM_ARCH': 'linux64', 'AMENT_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/my_robot_bringup:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_cpp:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/nhungdtc/miniconda3/bin/python', 'SHELL': '/bin/bash', 'FOAM_LIBBIN': '/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/lib', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'WM_COMPILER': 'Gcc', 'WM_PROJECT_USER_DIR': '/home/donhung19/OpenFOAM/donhung19-v2412', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle', 'FOAM_TUTORIALS': '/usr/lib/openfoam/openfoam2412/tutorials', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/nhungdtc/miniconda3/bin/conda', 'WM_MPLIB': 'SYSTEMOPENMPI', 'WM_LABEL_SIZE': '32', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=a2c454b160f364cbef680a19687c153f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'FOAM_RUN': '/home/donhung19/OpenFOAM/donhung19-v2412/run', 'WM_THIRD_PARTY_DIR': '/usr/lib/openfoam/openfoam2412/ThirdParty', 'PYTHONPATH': '/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'WM_LABEL_OPTION': 'Int32', 'FOAM_SOLVERS': '/usr/lib/openfoam/openfoam2412/applications/solvers', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'FOAM_APPBIN': '/usr/lib/openfoam/openfoam2412/platforms/linux64GccDPInt32Opt/bin', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/my_robot_bringup:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_cpp:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/donhung19/Documents/Study/ROS2/ROS2_ws_v2/install/pkg_py:/opt/ros/jazzy'}), 'shell': False}
+[10.733267] (my_turtle) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.734111] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_spawner\n'}
+[10.734607] (my_turtle) StdoutLine: {'line': b'-- Installing: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_controller\n'}
+[10.748394] (my_turtle) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/lib/my_turtle/turtle_controller" to ""\n'}
+[10.749626] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/launch\n'}
+[10.750051] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/launch/my_turtle.launch.xml\n'}
+[10.750545] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/package_run_dependencies/my_turtle\n'}
+[10.750905] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/parent_prefix_path/my_turtle\n'}
+[10.751450] (-) TimerEvent: {}
+[10.751682] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/ament_prefix_path.sh\n'}
+[10.751855] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/ament_prefix_path.dsv\n'}
+[10.751996] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/path.sh\n'}
+[10.752172] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/environment/path.dsv\n'}
+[10.752328] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.bash\n'}
+[10.752504] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.sh\n'}
+[10.752651] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.zsh\n'}
+[10.752809] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/local_setup.dsv\n'}
+[10.753032] (my_turtle) StdoutLine: {'line': b'-- Installing: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/package.dsv\n'}
+[10.753211] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/ament_index/resource_index/packages/my_turtle\n'}
+[10.753352] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/cmake/my_turtleConfig.cmake\n'}
+[10.753475] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/cmake/my_turtleConfig-version.cmake\n'}
+[10.753656] (my_turtle) StdoutLine: {'line': b'-- Up-to-date: /home/donhung19/Documents/Study/ROS2/TurtleSim_Project/install/my_turtle/share/my_turtle/package.xml\n'}
+[10.755183] (my_turtle) CommandEnded: {'returncode': 0}
+[10.786680] (my_turtle) JobEnded: {'identifier': 'my_turtle', 'rc': 0}
+[10.788187] (-) EventReactorShutdown: {}

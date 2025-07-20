@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-858854183b44803e2b9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "my_turtle",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_turtle_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_turtle_uninstall-7cd0654c08d75453ad50.json",
+					"name" : "my_turtle_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_controller-63ee0806c8a2a0699bc8.json",
+					"name" : "turtle_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtle_spawner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtle_spawner-0235e554e391e3ba7642.json",
+					"name" : "turtle_spawner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-fd00581a895dae5ef5c3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/build/my_turtle",
+		"source" : "/home/donhung19/Documents/Study/ROS2/TurtleSim_Project/src/my_turtle"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
