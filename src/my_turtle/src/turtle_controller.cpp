@@ -26,7 +26,7 @@ public:
     TurtleController();
 private:
     turtlesim::msg::Pose current_position_;
-    std::queue<TurtlePosition> list_turtle_;
+    std::vector<TurtlePosition> list_turtle_;
     bool isTurtleExist_ = false;
     bool isKilling_ = false;
 
@@ -94,7 +94,7 @@ void TurtleController::new_turtle_position(const std_msgs::msg::String::SharedPt
     RCLCPP_INFO(this->get_logger(), "[TurtleController][Queue] New_turtle %s: (%.2f, %.2f, %.2f)",
                 tp.name_.c_str(), tp.x_, tp.y_, tp.theta_);
 
-    list_turtle_.push(tp);
+    list_turtle_.push_back(tp);
 
 }   
 
@@ -112,11 +112,27 @@ void TurtleController::turtle_controller()
         return;
     }
 
-    auto &tp = list_turtle_.front();
+//    auto &tp = list_turtle_.front();
+
+    auto x_current = current_position_.x;
+    auto y_current = current_position_.y;
+    double min_distance = std::numeric_limits<double>::max();
+    auto nearest_it = list_turtle_.begin();
+    for (auto it = list_turtle_.begin(); it != list_turtle_.end(); it ++)
+    {
+        auto dist = std::hypot(it->x_ - x_current, it->y_ - y_current);
+        if (dist < min_distance)
+        {
+            min_distance = dist;
+            nearest_it = it;
+        }
+    }
+
+    TurtlePosition turtle_nearest = *nearest_it;
 
     // Computer distance.
-    double dx = tp.x_ - current_position_.x;
-    double dy = tp.y_ - current_position_.y;
+    double dx = turtle_nearest.x_ - current_position_.x;
+    double dy = turtle_nearest.y_ - current_position_.y;
     double distance = std::hypot(dx,dy);
 
     // Compute orientation.
@@ -136,8 +152,8 @@ void TurtleController::turtle_controller()
 
     if (distance > 0.5)
     {
-        move.linear.x = 3 * distance;
-        move.angular.z = 3.0 * angle_orientation;
+        move.linear.x = 2 * distance;
+        move.angular.z = 2.0 * angle_orientation;
         publisher_velocity_->publish(move);
     }
 
@@ -150,7 +166,7 @@ void TurtleController::turtle_controller()
         if(client_killer_->wait_for_service(std::chrono::milliseconds(500)))
         {
             auto request = std::make_shared<turtlesim::srv::Kill::Request>();
-            request->name = tp.name_;
+            request->name = turtle_nearest.name_;
             isKilling_ = true;
 
             auto respond = [this,request] (rclcpp::Client<turtlesim::srv::Kill>::SharedFuture future)
@@ -165,7 +181,7 @@ void TurtleController::turtle_controller()
                 }
             };
             client_killer_->async_send_request(request,respond);
-            list_turtle_.pop();
+            list_turtle_.erase(nearest_it);
             isKilling_ = false;
         }
         else
@@ -174,7 +190,6 @@ void TurtleController::turtle_controller()
         }   
     }
 }
-
 
 int main(int argc, char **argv)
 {
