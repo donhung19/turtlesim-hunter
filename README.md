@@ -27,4 +27,4 @@ source install/setup.bash
 ros2 launch my_turtle my_turtle.launch.xml
 
 ## Video Demo
-https://www.youtube.com/@docamnhung6763/shorts
+https://youtu.be/IGEXs73J0Mo
